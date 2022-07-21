@@ -24,16 +24,30 @@ html {
 
 --Very-Dark-Blue: hsl(216, 12%, 8%);
 }
-
 body {
     background-color: var(--Very-Dark-Blue);
 
 }
+
+.number {
+    width: fit-content;
+    color: var(--Orange);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+.inactive {
+    display: none;
+}
+
+
 /*----------------------- RATING CARD------------------*/
-.card-container {
+.card-container,
+.thanksCard {
     width: 32rem;
     height: 40rem;
-    margin: 20% auto 0;
+    margin: 40% auto 0;
     padding: 1.5rem;
     border-radius: 2rem;
     background-color: var(--Dark-Blue);
@@ -120,13 +134,13 @@ body {
 }
 
 .card-container-selection {
-    width: fit-content;
+    width: 25rem;
     background-color: var(--Dark-Blue2);
     color: var(--Orange);
     font-size: 1.5rem;
     text-align: center;
     margin: 1rem auto;
-    padding: 1rem;
+    padding: .5rem;
     border-radius: 3rem;
 }
 
@@ -148,7 +162,7 @@ body {
 
 footer {
     width: fit-content;
-    margin: 1rem auto;
+    margin: 2rem auto;
     font-size: 1.2rem;
     color: var(--Orange);
 }
